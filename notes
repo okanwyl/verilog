@@ -1,0 +1,7 @@
+// regenerate mk files to include c++ test bench
+verilator -Wall --trace -cc alu.sv --exe tb_alu.cpp
+// build our executable
+make -C obj_dir -f Valu.mk Valu
+
+// obj waveform
+gtkwave waveform.vcd
