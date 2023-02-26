@@ -1,7 +1,6 @@
 ### Blinking led simulation
 
 Blinking led in system verilog, and c++
-
 Requirements
 
 ```
